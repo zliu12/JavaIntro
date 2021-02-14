@@ -39,14 +39,15 @@ class Employee {
 
   // Employee class constructor
   public Employee(String name) {
-    /* local var: declared and initialized inside method, gone as method ends */
-    int localVariable;
     /* local var has a preferential order to member var when they have the same
     name. Use this if need to access the member var inside the method. */
     this.name = name;
   }
   // Set value of age
   public void empAge(int empAge) {
+    /* local var: declared and initialized inside method, gone as method ends */
+    int localVariable = 0;
+    age = localVariable;
     age = empAge;
   }
   // Set designation value

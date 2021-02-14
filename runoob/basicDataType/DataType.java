@@ -109,6 +109,7 @@ public class DataType {
   1.Low to high: byte, short, char->int->long->float->double.
   2.Low to high must use explicit cast, truncation may happen
   3.floating point to integral is abandoning the decimal part, not rounding off
+  4.long type must postfix 'L' with the value
   */
 }
 
