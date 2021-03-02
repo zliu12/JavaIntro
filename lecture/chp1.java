@@ -1,5 +1,7 @@
+package lecture;
+
 /**
- * Chapter 1 Session.
+ * Chapter 1 - Lecture.
  *
  * Copyright (c) [2021], Zhao Liu.
 */
@@ -32,8 +34,7 @@
 // Public class name must match the file name
 // All Java program has to have at least one main method, can have multiple
 import java.util.Scanner;
-import java.util.*;
-public class chp1 {
+public class Chp1 {
    // reads user's input
    public static Scanner sc = new Scanner(System.in);
    // String[] is the name of argument, args are the arguments

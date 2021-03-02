@@ -1,3 +1,5 @@
+package MethodsRefresherAreas.src;
+
 /**
  * Methods Refresher Lab - CalculateAreas class
  *

@@ -1,3 +1,5 @@
+package MethodsRefresherAreas.src;
+
 /**
  * Methods Refresher Lab - Areas class.
  *
@@ -17,7 +19,7 @@ public class Areas {
    * @param PI: math constant 
    * @return area of a circle
    */
-  public double areaCircle(double radius, final double PI) {
+  public static double areaCircle(double radius, final double PI) {
     double circleArea = PI * Math.pow(radius, 2);
     return circleArea;
   }
@@ -27,7 +29,7 @@ public class Areas {
    * @param length: length of a square's four sides
    * @return area of a square
    */
-  public double areaSquare(double length) {
+  public static double areaSquare(double length) {
     double squareArea = Math.pow(length, 2);
     return squareArea;
   }
@@ -38,7 +40,7 @@ public class Areas {
    * @param height: height of a triangle
    * @return area of a triangle
    */
-  public double areaTriangle(double length, double height) {
+  public static double areaTriangle(double length, double height) {
     double triangleArea = length * height / 2;
     return triangleArea;
   }
@@ -49,7 +51,7 @@ public class Areas {
    * @param width: length of a rectangle's short side
    * @return area of a rectangle
    */
-  public double areaRectangle(double length, double width) {
+  public static double areaRectangle(double length, double width) {
     double rectangleArea = length * width;
     return rectangleArea;
   }
@@ -61,7 +63,7 @@ public class Areas {
    * @param height: height of a trapezoid
    * @return area of a trapezoid
    */
-  public double areaTrapezoid(double upper, double lower, double height) {
+  public static double areaTrapezoid(double upper, double lower, double height) {
     double trapezoidArea = (upper + lower) * height / 2;
     return trapezoidArea;
   }
