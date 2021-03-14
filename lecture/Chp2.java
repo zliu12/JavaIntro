@@ -1,5 +1,3 @@
-package lecture;
-
 /**
  * Chapter 2 - Lecture
  *
@@ -66,17 +64,34 @@ keyword private: method belongs to the class that owns the method
 to create an obj of the class; static var is shared across the class
  */
 
- /* Return value
- 1. No multiple return types/values */
+/* Return value
+1. No multiple return types/values */
+/* How to implement a method
+1. What the method should do
+2. Inputs/parameters
+3. type of parameters and return values
+4. Pseudocode
+5. Implement body
+6. Test 
+7. Make the method as general as possbile, write once, then reuse, DIY
+ */
 
- /* How to implement a method
- 1. What the method should od
- 2. Inputs/parameters
- 3. type of parameters and return values
- 4. Pseudocode
- 5. Implement body
- 6. Test 
- 7. Make the method as general as possbile, write once, then reuse, DIY */
+/* Object
+1. Abstractions
+2. Hold data: invisible to the outside, can be called and used by API/interface
+3. Hold how to manipulate data
+4. Is an instance of a Class
+  a. Class: describes set of ojbects with the same behavior
+  b. Defines a specific set of methods to use with its objects
+ */
+
+/* Accessor and Mutator
+1. Accessor: gives you infor
+2. Mutator: normally void type, take a param that will change an instance var
+ */
+
+
+
 
 
 
@@ -89,6 +104,8 @@ public class Chp2 {
     int sum = 0;
     func(sum);  // void type, sum no change
     System.out.println(sum);  // sum still 0
+    sum = func(sum);
+    System.out.println(sum);  // sum should be 45
   }
 
   public static int func(int a) {

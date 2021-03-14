@@ -1,5 +1,3 @@
-package lecture;
-
 /**
  * Chapter 1 - Lecture.
  *

@@ -1,5 +1,3 @@
-package MethodsRefresherAreas.src;
-
 /**
  * Methods Refresher Lab - CalculateAreas class
  *
@@ -30,11 +28,11 @@ public class CalculateAreas {
     double trapezoidTop = 7.7, trapezoidBottom = 8.8, trapezoidHeight = 9.9;
 
     // Initialize variables for the 5 variables from the Areas class
-    double circleArea = area.areaCircle(circleRadius, PI_MATH);
-    double squareArea = area.areaSquare(squareSideLength);
-    double triangleArea = area.areaTriangle(triangleLength, triangleHeight);
-    double rectangleArea = area.areaRectangle(rectangleLength, rectangleWidth);
-    double trapezoidArea = area.areaTrapezoid(trapezoidTop, trapezoidBottom,
+    double circleArea = Areas.areaCircle(circleRadius, PI_MATH);
+    double squareArea = Areas.areaSquare(squareSideLength);
+    double triangleArea = Areas.areaTriangle(triangleLength, triangleHeight);
+    double rectangleArea = Areas.areaRectangle(rectangleLength, rectangleWidth);
+    double trapezoidArea = Areas.areaTrapezoid(trapezoidTop, trapezoidBottom,
                                            trapezoidHeight);
     
     // Call the method in Output class to print out the 5 areas

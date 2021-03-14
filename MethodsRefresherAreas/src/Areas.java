@@ -1,5 +1,3 @@
-package MethodsRefresherAreas.src;
-
 /**
  * Methods Refresher Lab - Areas class.
  *
