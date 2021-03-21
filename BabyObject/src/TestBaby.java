@@ -56,6 +56,7 @@ public class TestBaby {
       System.out.println(forthBaby.getName() + " may be sleepy.");
     }
 
+    // Brief summary 
     System.out.println("There are " + Baby.getBabiesCount() +
     " babies in total, " + Baby.getBlueCount() + " boys and " +
     Baby.getPinkCount() + " girls.");

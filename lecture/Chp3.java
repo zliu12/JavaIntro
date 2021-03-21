@@ -42,4 +42,36 @@ Constructors:
 3. Constructor name has to be the name of the class
 4. Default constructor used if no custom constructor: int = 0; str = null;
 5. Don't rely on Java default constructor 
+6. Mutator: change the instance variables
+7. Accessor: bring you the instance variables
  */
+
+/* Unit Testing
+1. Verify a class works correctly in isolation, outside a complete program
+2. Test class: a class with a main method that contains statements to test another class
+3. Step:
+    1. Construct objects
+    2. Invoke one or more methods
+    3. Print out one or more results
+    4. Print out the expected results
+ */
+
+/* Local Variables
+1. Declared within the method, belong to the method
+2. Get destroyed when the method finishes
+3. Must initialize the local variables
+*/
+
+/* Instance Methods*/
+
+/* Implicit and Explicit Parameters */
+
+/* This Reference
+1. Refer to the object variable 
+*/
+
+/* Errors
+1. Not initializing object references in constructor:
+    NullPointerException
+2. Trying to call a constructor
+*/
