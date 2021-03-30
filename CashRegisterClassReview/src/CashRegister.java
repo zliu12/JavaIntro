@@ -5,21 +5,18 @@
  */
 
 public class CashRegister {
-  private int numOf100s;             // Number of 100-dollar bills
-  private int numOf50s;                  // Number of 50-dollar bills
-  private int numOf20s;                 // Number of 20-dollar bills
-  private int numOf10s;                    // Number of 10-dollar bills
-  private int numOf5s;                   // Number of 5-dollar bills
-  private int numOf1s;                    // Number of 1-dollar bills 
-  private double itemCount;                 // Number of items
-  private double itemPrice;                 // Price of one item            
-  private double coinTotal;                 // Total amount of coins
-  private double cashInBills;               // Total amount of bills
-  private double cashRegisterTotal;         // Total cash in register
-  
-  private static double allCoinTotal = 0;
-  private static double allCashInBills = 0;
-  private static double allCashRegisterTotals = 0;
+  private int numOf100s;                            // Number of 100-dollar bills
+  private int numOf50s;                             // Number of 50-dollar bills
+  private int numOf20s;                             // Number of 20-dollar bills
+  private int numOf10s;                             // Number of 10-dollar bills
+  private int numOf5s;                              // Number of 5-dollar bills
+  private int numOf1s;                              // Number of 1-dollar bills 
+  private int itemCount;                            // Number of items
+  private double itemPrice;                         // Price of one item            
+  private double coinTotal;                         // Total amount of coins
+  private double cashInBills;                       // Total amount of bills
+  private double cashRegisterTotal;                 // Total cash in register
+  private static double allCashRegisterTotals = 0;  // Total cash in all register
 
   /**
    * Constructor: create the object with number of different bills and coins
@@ -33,9 +30,13 @@ public class CashRegister {
     this.numOf5s = numOf5s;
     this.numOf1s = numOf1s;
     this.coinTotal = coinTotal;
+    this.cashInBills = (double)100 * numOf100s + 50 * numOf50s +
+                               20 * numOf20s + 10 * numOf10s + 
+                               5 * numOf5s + 1 * numOf1s;
     this.cashRegisterTotal = (double)100 * numOf100s + 50 * numOf50s +
                                      20 * numOf20s + 10 * numOf10s + 
                                      5 * numOf5s + 1 * numOf1s + coinTotal;
+    allCashRegisterTotals += cashRegisterTotal;
   }
 
   /**
@@ -43,13 +44,22 @@ public class CashRegister {
    */
   CashRegister(double cashInBills, double coinTotal) {
     this.cashRegisterTotal = cashInBills + coinTotal;
+    allCashRegisterTotals += getCashRegisterTotal();
+  }
+
+  /**
+   * Method sets the number of item count
+   * @param itemCount 
+   */
+  public void setItemCount(int itemCount) {
+    this.itemCount = itemCount;
   }
 
   /**
    * Method gets the total number items of one register
    * @return total number of items
    */
-  public double getItemCount() {
+  public int getItemCount() {
     return itemCount;
   }
 
@@ -57,7 +67,7 @@ public class CashRegister {
    * Method changes the total cash WRT the change to item count
    * @param quantity: number of item added
    */
-  public void addItem(double quantity) {
+  public void addItem(int quantity) {
     itemCount += quantity;
     cashRegisterTotal += getItemCount() * getItemPrice();
   }
@@ -66,9 +76,17 @@ public class CashRegister {
    * Method changes the total cash WRT the change to item count
    * @param quantity: number of item removed
    */
-  public void removeItem(double quantity) {
+  public void removeItem(int quantity) {
     itemCount -= quantity;
     cashRegisterTotal -= getItemCount() * getItemPrice(); 
+  }
+
+  /**
+   * Method sets the price of the item
+   * @param itemPrice: price of the item
+   */
+  public void setItemPrice(double itemPrice) {
+    this.itemPrice = itemPrice;
   }
 
   /**
@@ -83,7 +101,7 @@ public class CashRegister {
    * Method gets the number of 100-dollar bills
    * @return number of one hundreds
    */
-  public double getOneHundreds() {
+  public int getOneHundreds() {
     return numOf100s;
   }
 
@@ -91,7 +109,7 @@ public class CashRegister {
    * Method gets the number of 50-dollar bills
    * @return number of fiftys
    */
-  public double getFiftys() {
+  public int getFiftys() {
     return numOf50s;
   }
 
@@ -99,7 +117,7 @@ public class CashRegister {
    * Method gets the number of 20-dollar bills
    * @return number of twentys
    */
-  public double getTwentys() {
+  public int getTwentys() {
     return numOf20s;
   }
 
@@ -107,14 +125,14 @@ public class CashRegister {
    * Method gets the number of 10-dollar bills
    * @return number of tens
    */
-  public double geTens() {
+  public int getTens() {
     return numOf10s;
   }  
 
   /** Method gets the number of 5-dollar bills
    * @return number of fives
    */
-  public double getFives() {
+  public int getFives() {
     return numOf5s;
   }
 
@@ -122,7 +140,7 @@ public class CashRegister {
    * Method gets the number of 1-dollar bills
    * @return number of ones
    */
-  public double getOnes() {
+  public int getOnes() {
     return numOf1s;
   }
 
@@ -132,6 +150,22 @@ public class CashRegister {
    */
   public double getCashRegisterTotal() {
     return cashRegisterTotal;
+  }
+
+  /**
+   * Method gets the total amount of coin in one register
+   * @return total coin
+   */
+  public double getCoinTotal() {
+    return coinTotal;
+  }
+
+  /**
+   * Method gets the total cash amount in one register
+   * @return total cash
+   */
+  public double getCashInBills() {
+    return cashInBills;
   }
 
   /**
