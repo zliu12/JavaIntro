@@ -13,6 +13,7 @@ public class testRandomFunctionalities {
 		System.out.println("rescue, elephants: " + test.putTogether("rescue", "elephants"));  // rescuelephant
 		System.out.println("Java, apple: " + test.putTogether("Java", "apple"));              // Javapple
     System.out.println("pop, eyes: " + test.putTogether("pop", "eyes"));                  // popeyes
+    System.out.println("two empty strings: " + test.putTogether(" ", " "));               // nothing
 
     // Test method swapThree
     System.out.println("JavA: " + test.swapThree("JavA"));      		  // JAva
