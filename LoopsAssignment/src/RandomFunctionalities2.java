@@ -91,6 +91,8 @@ public class RandomFunctionalities2 {
 			if (beginStr.compareTo(endStr) == 0) {
 				set = beginStr;
 			}
+
+			// Increment i and decrement j
 			++i;
 			--j;
 		}
