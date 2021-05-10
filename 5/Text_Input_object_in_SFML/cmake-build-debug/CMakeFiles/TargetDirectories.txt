@@ -1,0 +1,3 @@
+E:/Alina/PCC Class Note/CS/C++/CS 08 retake/sfml/Text_Input_object_in_SFML/cmake-build-debug/CMakeFiles/Text_Input_object_in_SFML.dir
+E:/Alina/PCC Class Note/CS/C++/CS 08 retake/sfml/Text_Input_object_in_SFML/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Alina/PCC Class Note/CS/C++/CS 08 retake/sfml/Text_Input_object_in_SFML/cmake-build-debug/CMakeFiles/rebuild_cache.dir

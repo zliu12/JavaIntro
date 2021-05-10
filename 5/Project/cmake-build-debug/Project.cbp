@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Leanna/CLionProjects/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Leanna/CLionProjects/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Leanna/CLionProjects/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project">
+				<Option output="/Users/Leanna/CLionProjects/Project/cmake-build-debug/Project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Leanna/CLionProjects/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project/fast">
+				<Option output="/Users/Leanna/CLionProjects/Project/cmake-build-debug/Project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Leanna/CLionProjects/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Leanna/CLionProjects/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Cursor.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Cursor.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/EventHandler.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/EventHandler.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/GUIComponent.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/GUIComponent.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/History.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/History.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Keyboard.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Keyboard.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Label.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Label.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/MouseEvents.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/MouseEvents.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/MultiText.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/MultiText.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Node_iterator.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Node_iterator.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/SnapShot.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/SnapShot.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Stack.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Stack.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/States.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/States.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/TextColor.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/TextColor.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/TextInput.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/TextInput.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Typing.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/Typing.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/main.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/Leanna/CLionProjects/Project/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

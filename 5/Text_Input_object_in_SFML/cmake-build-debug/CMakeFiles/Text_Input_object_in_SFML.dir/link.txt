@@ -1,0 +1,3 @@
+"D:\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Text_Input_object_in_SFML.dir/objects.a
+D:\mingw32\bin\ar.exe cr CMakeFiles\Text_Input_object_in_SFML.dir/objects.a @CMakeFiles\Text_Input_object_in_SFML.dir\objects1.rsp
+D:\mingw32\bin\g++.exe  -std=c++14 -static -g   -Wl,--whole-archive CMakeFiles\Text_Input_object_in_SFML.dir/objects.a -Wl,--no-whole-archive  -o Text_Input_object_in_SFML.exe -Wl,--out-implib,libText_Input_object_in_SFML.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Text_Input_object_in_SFML.dir\linklibs.rsp
